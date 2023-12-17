@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="640.25" y="578.0">jarai.patterns.gof.structural.flyweight.Forest</node>
+    <node x="794.0" y="384.0">jarai.patterns.gof.structural.flyweight.Tree</node>
+    <node x="496.0" y="406.0">jarai.patterns.gof.structural.flyweight.TreeTypeFactory</node>
+    <node x="651.5" y="213.0">jarai.patterns.gof.structural.flyweight.TreeType</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.structural.flyweight.Forest" target="jarai.patterns.gof.structural.flyweight.Tree" relationship="TO_MANY">
+      <point x="-69.75" y="-72.0" />
+      <point x="710.0" y="558.0" />
+      <point x="774.75" y="558.0" />
+      <point x="774.75" y="548.0" />
+      <point x="837.5" y="548.0" />
+      <point x="-43.5" y="72.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.flyweight.Forest" target="jarai.patterns.gof.structural.flyweight.Tree" relationship="CREATE">
+      <point x="69.75" y="-72.0" />
+      <point x="849.5" y="558.0" />
+      <point x="924.5" y="558.0" />
+      <point x="43.5" y="72.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.flyweight.Forest" target="jarai.patterns.gof.structural.flyweight.TreeTypeFactory" relationship="TO_ONE">
+      <point x="-69.75" y="-72.0" />
+      <point x="710.0" y="558.0" />
+      <point x="774.75" y="558.0" />
+      <point x="774.75" y="548.0" />
+      <point x="635.0" y="548.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.flyweight.TreeTypeFactory" target="jarai.patterns.gof.structural.flyweight.TreeType" relationship="TO_MANY">
+      <point x="0.0" y="-50.0" />
+      <point x="635.0" y="359.0" />
+      <point x="758.0" y="359.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.flyweight.Tree" target="jarai.patterns.gof.structural.flyweight.TreeType" relationship="TO_ONE">
+      <point x="0.0" y="-72.0" />
+      <point x="881.0" y="359.0" />
+      <point x="758.0" y="359.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="742.0" y="477.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
