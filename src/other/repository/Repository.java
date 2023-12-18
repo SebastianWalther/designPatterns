@@ -1,20 +1,21 @@
-package jarai.patterns.other.repository;
+/*--- (C) 1999-2023 Techniker Krankenkasse ---*/
+
+package other.repository;
 
 import java.util.function.Predicate;
 
 public interface Repository<T> {
 
-    void add(T newRecord);
+	void add(T newRecord);
 
-    void delete(T recordToDelete);
+	void delete(T recordToDelete);
 
-    void update(T recordToUpdate);
+	void update(T recordToUpdate);
 
-    Iterable<T> getWhere(Predicate<T> filter);
+	Iterable<T> getWhere(Predicate<T> filter);
 
-    T getById(int key);
+	T getById(int key);
 
 }
 
-
-
+/*--- Formatiert nach TK Code Konventionen vom 05.03.2002 ---*/
