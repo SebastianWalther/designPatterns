@@ -1,1 +1,3 @@
-Design Patterns By Sebastian und Melanie
+Design Patterns 
+
+By Sebastian und Melanie
