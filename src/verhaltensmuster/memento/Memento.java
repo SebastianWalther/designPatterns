@@ -1,4 +1,4 @@
-package verhaltensmuster.momento;
+package verhaltensmuster.memento;
 
 public class Memento {
     private final String zustand;

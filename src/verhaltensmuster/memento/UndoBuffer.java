@@ -1,4 +1,4 @@
-package verhaltensmuster.momento;
+package verhaltensmuster.memento;
 
 import java.util.Vector;
 
